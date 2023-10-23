@@ -1,0 +1,29 @@
+.bgcontainer {
+    background-color: rgb(67, 5, 67);
+    height:100vh;
+    background-size:cover;
+
+}
+.mystory{
+    color:aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:;
+
+}
+.image{
+    height:200px;
+    width:200px;
+    border-radius:100px;
+}
+.card1{
+    background-color:goldenrod;
+    border:2px solid red;
+    width:40vw;
+    text-align: center;
+    border-radius: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+}

@@ -1,0 +1,14 @@
+.bgcontainer {
+    background-color: rgb(75, 4, 75)
+    height:100vh;
+    background-size:cover;
+
+}
+.mystory{
+    color:aliceblue;
+
+}
+.image{
+    height:400px
+    width:400px
+}

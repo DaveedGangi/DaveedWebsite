@@ -1,0 +1,63 @@
+.bgcontainer {
+    height:100vh;
+    background-size:cover;
+
+}
+.mystory{
+    color:rgb(93, 245, 230);
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-top:24px;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.image1{
+    height:150px;
+    width:150px;
+    border-radius:100px;
+    margin:12px;
+    
+}
+.image2{
+    height:150px;
+    width:150px;
+    border-radius:100px;
+    display: none;
+
+}
+.card1{
+   
+    width:70vw;
+    background-color: chocolate;
+    border-radius: 33px;
+    display: flex;
+    padding:18px;
+    flex-direction: column;
+    text-align: center;
+    align-items:center;
+    box-shadow:5px 5px 4px 6px rgb(7, 138, 47);
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:
+}
+.hi{
+    font-size:44px;
+}
+@media (min-width: 768px){
+    .mystory{
+        display: flex;
+        flex-direction: row;
+    }
+    .image1{
+        display:none;
+    }
+    .image2{
+        display: block;
+    }
+
+}
